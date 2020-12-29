@@ -12,9 +12,7 @@ def line(array)
 
 def take_a_number(array, name)
   array << name
-  array.each_with_index do |value, index|
-  puts "Welcome, #{value}. You are number #{index.to_i + 1} in line."
-  end
+  puts "Welcome, #{name}. You are number #{array.length - 1} in line."
 end
 
 def now_serving(array)
