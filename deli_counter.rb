@@ -5,7 +5,7 @@ def line(array)
    status = "The line is currently: "
    i = 0
    array.each do |index|
-     status += "#{array[i].to_i}. #{index}"
+     status += "#{array[i].to_i}. #{index} "
      i += 1
     end
     puts status
