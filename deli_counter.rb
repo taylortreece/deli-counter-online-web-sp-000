@@ -4,6 +4,6 @@ def line(array)
  else
    array.each do |n|
      puts "The line is currently #{n}"
-    end 
+    end
    end
  end
