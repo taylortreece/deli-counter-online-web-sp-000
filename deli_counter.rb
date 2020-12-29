@@ -11,7 +11,7 @@ def line(array)
  end
 
 def take_a_number(name, array)
-  array.unshift(name)
+  array << name
   puts "Welcome, #{name}. You are number #{array.length} in line."
 end
 
