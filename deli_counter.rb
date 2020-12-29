@@ -6,7 +6,7 @@ def line(array)
    i = array.length - 1
    array.each do |index|
      status += "#{array[i].to_i}. #{index}"
-     puts status
+     i += 1
     end
    end
  end
