@@ -1,8 +1,5 @@
 def line(array)
- case line
- when array == false
-   "The line is empty."
- when array == true
-   puts array
+ if array == false
+   return "The line is empty."
  end
  end
