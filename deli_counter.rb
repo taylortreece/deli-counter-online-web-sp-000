@@ -21,4 +21,3 @@ def now_serving(array)
  else
    customer = array.shift
    puts "Currently serving #{customer}."
-  
