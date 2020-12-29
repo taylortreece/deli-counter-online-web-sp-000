@@ -8,5 +8,6 @@ def line(array)
      status += "#{array[i].to_i}. #{index}"
      i += 1
     end
+    puts status
    end
  end
