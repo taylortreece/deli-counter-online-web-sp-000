@@ -15,6 +15,7 @@ def take_a_number(name, array)
   array.each_with_index do |value, index|
   puts "Welcome, #{value}. You are number #{index.to_i + 1} in line."
 end
+end
 
 def now_serving(array)
   if array.length == 0
