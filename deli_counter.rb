@@ -3,10 +3,8 @@ def line(array)
    puts "The line is currently empty."
  else
    status = "The line is currently:"
-   i = 1
    array.each do |index|
-     status += " #{i}. #{index}"
-     i += 1
+     status += " #{index.to_i + 1}. #{index}"
     end
     puts status
    end
